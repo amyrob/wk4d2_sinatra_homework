@@ -20,15 +20,13 @@ def anagram(string1, string2)
   else
     return "Noooope, no anagram to see here!"
   end
-  if string1 == string2
-    return "That's the same word...try again"
-  end
+  
 end
 
 
 def isogram(string1)
   string = string1.split('')
-  if string == string.uniq
+  if string == string.uniq.count
     return "#{string1} is an isogram...cool!"
   else
     return "That's not an isogram!"

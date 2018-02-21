@@ -1,9 +1,3 @@
 body {
   background-color: teal;
 }
-
-li {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-}
